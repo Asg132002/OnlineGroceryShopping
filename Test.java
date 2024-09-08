@@ -23,7 +23,7 @@ public class Test
                         System.out.println("--CUSTOMER REGISTRATION--");
                             customerAL.add(Customer.registration()); //US001
                     }
-
+                    //US002
                     else if (choice == 2) {
                         System.out.println("--LOGIN--");
                         Customer c = loginCustomer(customerAL); //US004
@@ -37,7 +37,7 @@ public class Test
                         String new_name = sc.nextLine();
                         c.update_name(new_name);
                     }
-
+                    //US002
                     else if (choice == 3) {
                         System.out.println("--LOGIN--");
                         Customer c = loginCustomer(customerAL); //US004
@@ -50,7 +50,7 @@ public class Test
                         String new_email = sc.next();
                         c.update_email(new_email);
                     }
-
+                    //US002
                     else if (choice == 4) {
                         System.out.println("--LOGIN--");
                         Customer c = loginCustomer(customerAL); //US004
@@ -63,7 +63,7 @@ public class Test
                         String new_password = sc.next();
                         c.update_password(new_password);
                     }
-
+                    //US002
                     else if (choice == 5) {
                         System.out.println("--LOGIN--");
                         Customer c = loginCustomer(customerAL); //US004
@@ -77,7 +77,7 @@ public class Test
                         String new_address = sc.nextLine();
                         c.update_address(new_address);
                     }
-
+                    //US002
                     else if (choice == 6) {
                         System.out.println("--LOGIN--");
                         Customer c = loginCustomer(customerAL); //US004
